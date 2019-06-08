@@ -5,7 +5,7 @@
   "main": "index.js",
   "homepage": "https://chriswongatcuhk.github.io/react-redux-with-typescript",
   "scripts": {
-    "build": "webpack",
+    "dev": "webpack -d --watch",
     "predeploy": "webpack",
     "deploy": "gh-pages -d public"
   },
